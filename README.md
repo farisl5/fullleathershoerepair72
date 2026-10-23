@@ -42,3 +42,9 @@ The generated `dist/` directory can be served by any static host. Navigation, cl
 6. On the deployed site, verify the mobile menu, telephone link, directions link, imagery, and SEO information. Obtain business authorization and confirm all content before presenting the concept as its official website.
 
 The website has not been pushed or deployed automatically.
+
+## GitHub Pages
+
+The `gh-pages` branch contains the built static site. In GitHub **Settings → Pages**, select **Deploy from a branch**, choose **gh-pages** and **/ (root)**, then save.
+
+The site URL is `https://farisl5.github.io/fullleathershoerepair72/` after GitHub finishes publishing. Build updates with `npm ci` followed by `npm run build:pages`, then publish the contents of `dist/` to the `gh-pages` branch. Keep `.nojekyll` in that branch. Source code stays on `main`.
